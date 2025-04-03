@@ -10,7 +10,7 @@ function App() {
     <>
       <SpeedInsights />
       <Analytics />
-      <div className="w-screen h-screen flex justify-center items-center">
+      <div className="w-100vw h-100vh flex justify-center items-center bg-white overflow-auto">
         <ASCIIText text="hi" enableWaves={true} asciiFontSize={8} />
       </div>
     </>
